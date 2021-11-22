@@ -75,6 +75,7 @@ public class deletion{
         sll.deleteFirst();
         sll.deleteLast();
         sll.deleteAtGivenPosition(3);
+        sll.deleteAtGivenPosition(1);
         sll.display();
         
     }
