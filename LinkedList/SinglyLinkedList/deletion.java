@@ -20,6 +20,7 @@ public class deletion{
         System.out.print("null");
     }
 
+    //To delete the first Node of SLL
     public ListNode deleteFirst(){
         if(head==null){
             return null;
@@ -30,6 +31,7 @@ public class deletion{
         return current;
     }
 
+    //To delete the Last Node of SLL
     public ListNode deleteLast(){
         if(head==null || head.next==null)
         {
@@ -45,6 +47,7 @@ public class deletion{
         return current;
     }
 
+    //To delete a node at a given position
     public void deleteAtGivenPosition(int position){
         if(position==1){
             head=head.next;
