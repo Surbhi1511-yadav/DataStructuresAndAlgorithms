@@ -1,4 +1,4 @@
-public class lengthOfSll{
+public class search{
     private ListNode head;  //instance of head
 
     private static class ListNode{
@@ -36,7 +36,7 @@ public class lengthOfSll{
 
 
     public static void main(String[] args) {
-        lengthOfSll sll=new lengthOfSll();
+        search sll=new search();
         sll.head=new ListNode(10); //10--->null
         ListNode second=new ListNode(1);//10--->1--->null
         ListNode third = new ListNode(8);//10--->1--->8--->null
